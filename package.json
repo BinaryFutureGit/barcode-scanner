@@ -5,7 +5,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jadsalhani/ionic2-qrscanner-example.git"
+        "url": "https://github.com/BinaryFutureGit/barcode-scanner.git"
     },
     "scripts": {
         "build": "ionic-app-scripts build",
