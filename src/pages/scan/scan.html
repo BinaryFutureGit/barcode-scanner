@@ -1,0 +1,16 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Scan</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding class="Scan">
+  <div class="row">
+    <div class="col">
+      <h2>Scan your code</h2>
+    </div>
+  </div>
+  <button ion-button block color="secondary" class="Scan-button" (click)="scanQR()" [disabled]="loading">{{buttonText}}</button>
+</ion-content>
